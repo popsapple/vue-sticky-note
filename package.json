@@ -3,20 +3,32 @@
   "version": "1.0.0",
   "description": "make your memo in web site",
   "main": "./dist/sticky.js",
+  "browser": "./dist/sticky.js",
   "scripts": {
     "test": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "none"
   },
   "keywords": [
     "vue",
     "sticky",
     "note"
   ],
-  "dependencies": {
+  "homepage": "https://github.com/popsapple/vue-sticky-note",
+  "bugs": {
+    "email": "saysun34@gmail.com"
+  },
+  "author": {
+    "name": "Garam Hyeon(popsapple)",
+    "email": "saysun34@gmail.com",
+    "url": "http://popsapple.herokuapp.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/popsapple/vue-sticky-note"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "clean-webpack-plugin": "^3.0.0",
@@ -35,11 +47,5 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
-  },
-  "author": "garam hyeon",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "sass": "^1.24.2"
   }
 }
