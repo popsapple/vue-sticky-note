@@ -1,7 +1,7 @@
 {
   "name": "vue_sticky_note",
   "version": "1.0.0",
-  "description": "made your memo in web site",
+  "description": "make your memo in web site",
   "main": "./dist/sticky.js",
   "scripts": {
     "test": "webpack-dev-server --config webpack.dev.js",
