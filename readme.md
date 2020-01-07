@@ -9,7 +9,9 @@ First, you import sticky.js in dist. And Then connect at Vue mother instence.<br
 메모가 저장되는 곳은 localStorage 이므로 사용하시려면 서버가 돌아가고 있어야 합니다.<br/>
 On save data storage is LocalStorage. So, you must using this on your running server. <br/>
 스타일시트를 기본적으로 붙이시려면 default.scss로 작성한 내용이 있으므로, 그걸 바탕으로 활용하시면 됩니다.<br/>
-If you want using stylesheet. You can refering \'default.scss\'.
+If you want using stylesheet. You can refering \'default.scss\'.<br /><br />
+
+![example](https://user-images.githubusercontent.com/17559697/71885937-af01ea00-317e-11ea-8086-079d7f6bce0e.png)<br /><br />
 
 ```js
 import Vue from "vue";
