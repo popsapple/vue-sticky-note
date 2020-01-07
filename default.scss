@@ -1,0 +1,73 @@
+body {
+  background: #eaeaea;
+  input {
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    display: block;
+    margin-bottom: 5px;
+  }
+  textarea {
+    height: 200px;
+    line-height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    display: block;
+    resize: none;
+    margin-bottom: 5px;
+  }
+  select {
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    display: block;
+  }
+  button {
+    display: inline-block;
+    margin: 5px 2px 5px 0px;
+    padding: 0px;
+    width: 63px;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    border-bottom-width: 2px;
+    background: #ffffff;
+    color: #808080;
+  }
+  ul {
+    display: flex; // flex - block, inline-flex - inline
+    flex-flow: row wrap; // 주축의 정렬법 , flex-direction (방향 - colunm[세로], row[가로]) flex-wrap (줄바꿈)
+    justify-content: space-between; // 주축의 정렬방법 flex-start, flex-end, center, space-between, space-around
+    align-items: flex-start; // 교차축의 정렬방법 (1줄)  stretch, flex-start, flex-end, center, baseline
+    align-content: flex-start; // 교차축의 정렬방법 (2줄)  stretch, flex-start, flex-end, center, space-between, space-around
+    list-style: none;
+    padding: 0px;
+    li {
+      //order:; // 배치순서
+      flex: 0 1 200px; // flex-grow(너비 증가 비율), flex-shrink(너비 감소 비율), flex-basis(기본 너비)의 단축 (stretch와 연관됨)
+      align-self: auto; // 기본적으로는 윗단의 align-items를 따르는데 이 속성이 있으면 이게 우선된다 auto, stretch, flex-start, flex-end, center, baseline
+      height: 400px;
+      border: 1px solid #d0d0d0;
+      background: #ffffff;
+      color: #808080;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 15px;
+      strong {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: block;
+      }
+      div {
+        color: #808080;
+      }
+      &.active {
+        box-shadow: 0px 0px 4px 2px blue;
+      }
+    }
+  }
+}

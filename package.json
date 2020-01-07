@@ -1,0 +1,45 @@
+{
+  "name": "vue_sticky_note",
+  "version": "1.0.0",
+  "description": "made your memo in web site",
+  "main": "./dist/sticky.js",
+  "scripts": {
+    "test": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "vue",
+    "sticky",
+    "note"
+  ],
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^3.4.1",
+    "es6-promise": "^4.2.8",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^5.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "author": "garam hyeon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "sass": "^1.24.2"
+  }
+}
